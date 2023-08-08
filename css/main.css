@@ -1,0 +1,110 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+html {
+background-color: #101010;
+font-size: 1.125rem;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    display: block;
+}
+
+.header-logo img {
+    height: 60px;
+    width: 275px;
+    padding: 10px;
+}
+
+.navMenu ul {
+    list-style-type: none;
+    font-size: 1.175rem;
+}
+
+.navMenu a {
+    text-decoration: none;
+    color: #ffd100;
+    padding: 15px;
+}
+
+.navMenu a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-skip-ink: none
+}
+
+.navMenu li {
+    color: #fff;
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid #3533339c;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1920px;
+    align-items: center;
+    
+}
+
+body .content-main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+    margin-top: 10px;
+    display: center;
+}
+
+
+
+.content-main h2 {
+    background: rgba(255, 255, 255, 0.05);
+    color: #00c0ff;
+    font-family: "open sans";
+    font-size: 1.5rem;
+    border-top: 2px solid #3533339c;
+    border-right: 2px solid #3533339c;
+    border-left: 2px solid #3533339c;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.content-main h2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.content-main h2 a:hover {
+    color: rgba(0, 192, 255,.75);
+    text-decoration: none;
+}
+
+.content-main p {
+    border: 2px solid #3533339c;
+    background: rgba(255, 255, 255, 0.05);
+    color: #ccc;
+    line-height: 1.5;
+    padding: 15px;
+    display: flow-root;
+}
+
+.content-main img {
+    border-radius: 10px;
+    width: 500px;
+    height: 278px;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 10px;
+}
